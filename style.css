@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  padding-top: 50px;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(12, 4, 33);
+}
+h1 {
+  font-family: "Chakra Petch";
+  font-size: 20rem;
+  color: rgb(255, 255, 255);
+}
+
+#pointvalue {
+  width: 50%;
+  height: 30px;
+  background-color: brown;
+  font-family: "Chakra Petch";
+  color: white;
+  font-size: 20px;
+}
+option {
+  font-family: "Chakra Petch";
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: brown;
+  border: 0;
+  color: aliceblue;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    display: none;
+  }
+}
