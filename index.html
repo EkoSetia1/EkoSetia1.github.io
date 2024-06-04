@@ -1,39 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- My font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- end font -->
-    <title>Score Point</title>
+    <title>Personal Website</title>
+    <script type="module" crossorigin src="/assets/index-ftqUabc-.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DLWB3koz.css">
   </head>
   <body>
-    <div class="container">
-      <select name="point" id="pointvalue">
-        <script>
-          for (i = 1; i <= 30; i++) {
-            document.write(`<option value="${i}">${i}</option>`);
-          }
-        </script>
-      </select>
-      <h1><span id="player-1">0</span> : <span id="player-2">0</span></h1>
-
-      <div class="buttons">
-        <button id="tambah-score-p1">+ Player 1</button>
-        <button id="reset">Reset</button>
-        <button id="tambah-score-p2">+ Player2</button>
-      </div>
-
-      <!-- javascript -->
-      <script src="app.js"></script>
-    </div>
+    <div id="root"></div>
   </body>
 </html>
